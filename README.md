@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AIY Projects
 
 ## Overview
@@ -55,3 +56,9 @@ library or incorrect responses), you can try
 [assistant-google-plus]: https://plus.google.com/communities/117537996116836200696
 [assistant-stack-overflow]: https://stackoverflow.com/questions/tagged/google-assistant-sdk
 [assistant-github-issues]: https://github.com/googlesamples/assistant-sdk-python/issues
+=======
+The `master` branch of google/aiyprojects-raspbian is deprecated.
+It contains code that was released with the initial release of the Voice Kit, implementing a voice recognizer with various different voice commands implemented in src/actions.py.
+
+It has been replaced by the [aiyprojects branch](https://github.com/google/aiyprojects-raspbian/tree/aiyprojects), which has an easy-to-use API with simple examples that you can build upon.
+>>>>>>> 372fadc50a1eb3445fe27896dd2fabf38d1210d3
