@@ -44,7 +44,8 @@ def main():
     # Forced sensor mode, 1640x1232, full FoV. See:
     # https://picamera.readthedocs.io/en/release-1.13/fov.html#sensor-modes
     # This is the resolution inference run on.
-    with PiCamera(sensor_mode=4, resolution=(1640, 1232), framerate=30) as camera:
+    #with PiCamera(sensor_mode=4, resolution=(1640, 1232), framerate=30) as camera:
+    with PiCamera() as camera:
         camera.start_preview()
 
         # Annotator renders in software so use a smaller size and scale results
